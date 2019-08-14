@@ -1,44 +1,36 @@
 <?xml version="1.0"?>
 <package>
     <name>Whiplash_Fulfillment</name>
-    <version>0.0.1</version>
-    <stability>devel</stability>
+    <version>1.0.0</version>
+    <stability>stable</stability>
     <license uri="http://opensource.org/licenses/osl-3.0.php">yd521cdsf5re1serkcjbf4r50rew54cxc12</license>
     <channel>community</channel>
     <extends/>
-    <summary>The Whiplash extension enables you to seamlessly connect your Magento store with Whiplash Fulfillment.</summary>
-    <description>&lt;h3&gt;Packing orders is fun at first&lt;/h3&gt;&#xD;
-&#xD;
-But as your business grows, you need to hand the task off to the professionals. A proper warehouse can free your time up to work ON your business instead of IN your business, lower your shipping costs, and make your customers happier.&#xD;
-&#xD;
-But let's face it, do you really want your orders to look like they came from some factory that doesn't have a clue what's in the box? Of course not.&#xD;
-&#xD;
-Customers feel Connected&amp;lt;/h3&amp;gt;&#xD;
-&#xD;
-And that's where Whiplash steps in. Once you send your products to us for storage, you've got the power of a modern warehouse at your fingertips, without compromising the look and feel of your brand.&#xD;
-&#xD;
-&lt;h3&gt;Life gets easier&lt;/h3&gt;&#xD;
-&#xD;
-As orders come in, they ship automatically. Did you get an email that a customer needs to change their address? No problem-- you can change an address up until the moment the package goes out the door. Need to swap small out for a medium? Easy as pie.&#xD;
-&#xD;
-When orders ship, we update your Magento store with the tracking number and close the order auto-magically.&#xD;
-&#xD;
-&lt;h3&gt;Inventory stays Organized&lt;/h3&gt;&#xD;
-&#xD;
-There's something you should know about us- we're neat freaks, maybe even a little OCD. The upside is your inventory is clean, organized, and best yet -- Whiplash updates your Magento store automatically with exactly what's in stock.&#xD;
+    <summary>The Whiplash extension  Adds real-time synchronization of Products and Orders between Magento and Whiplash.</summary>
+    <description>&lt;p&gt;The Whiplash Extension gives shop owners a seamless integration to the Whiplash Fulfillment Network - direct to consumer order fulfillment, inventory tracking, shipping optimization, and automated returns functionality.  Whiplash handles the storage and shipment of your products so you can focus on what you do best: growing your brand.  &lt;/p&gt;&#xD;
 &#xD;
 &lt;h3&gt;Pricing&lt;/h3&gt;&#xD;
+&lt;p&gt;&lt;b&gt;$2.95 per order, which includes the 1st item&lt;/b&gt;&lt;/p&gt;&#xD;
+&lt;p&gt;&lt;b&gt;Items 2-6: $.85 each&lt;/b&gt;&lt;/p&gt;&#xD;
+&lt;p&gt;&lt;b&gt;Items 7+: $.25 each&lt;/b&gt;&lt;/p&gt;&#xD;
+&lt;p&gt;Lastly you pay the actual cost of mailing materials, carrier fees (we use USPS &amp;amp; UPS), and a warehousing fee as low as $.45/cubic foot with a $25/month minimum.&lt;/p&gt;&#xD;
 &#xD;
-&amp;lt;ul&amp;gt;&#xD;
-&lt;li&gt;$2.95 per order, which includes the 1st item&#xD;
-&lt;li /&gt;Items 2-6: $.85 each&lt;/li&gt;&#xD;
-&lt;li&gt;Items 7+: $.25 each&lt;/li&gt;&#xD;
+&lt;h3&gt;Customers feel Connected&lt;/h3&gt;&#xD;
+And that's where Whiplash steps in. Once you send your products to us for storage, you've got the power of a modern warehouse at your fingertips, without compromising the look and feel of your brand.&#xD;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&#xD;
+&lt;h3&gt;Life gets easier&lt;/h3&gt;&#xD;
+As orders come in, they ship automatically. Did you get an email that a customer needs to change their address? No problem-- you can change an address up until the moment the package goes out the door. Need to swap small out for a medium? Easy as pie.&#xD;
+&lt;p&gt;When orders ship, we update your Magento store with the tracking number and close the order auto-magically.&lt;/p&gt;&#xD;
 &#xD;
-Lastly you pay the actual cost of mailing materials, carrier fees (we use USPS &amp;amp; UPS), and a warehousing fee as low as $.45/cubic foot with a $25/month minimum.</description>
-    <notes>- This is first Notes</notes>
+&lt;h3&gt;Inventory stays Organized&lt;/h3&gt;&#xD;
+There's something you should know about us- we're neat freaks, maybe even a little OCD. The upside is your inventory is clean, organized, and best yet -- Whiplash updates your Magento store automatically with exactly what's in stock.&#xD;
+&lt;p&gt;Lastly you pay the actual cost of mailing materials, carrier fees (we use USPS &amp;amp; UPS), and a warehousing fee as low as $.45/cubic foot with a $25/month minimum.&lt;/p&gt;&#xD;
+&lt;p&gt;The app is free to install, you're only charged once your goods arrive at the Whiplash Facilities. &lt;/p&gt;&#xD;
+&lt;p&gt;or commitment, cancel at any time.&lt;/p&gt;</description>
+    <notes>No Notes.</notes>
     <authors><author><name>Peter Imai</name><user>Whiplash</user><email>james@whiplashmerch.com</email></author></authors>
-    <date>2016-02-08</date>
-    <time>12:10:03</time>
+    <date>2016-02-22</date>
+    <time>13:14:28</time>
     <contents><target name="magecommunity"><dir name="Whiplash"><dir name="Fulfillment"><dir name="Helper"><file name="Data.php" hash="b7f252699701bd3eee38b208c1be9689"/></dir><dir name="Model"><dir name="Adminhtml"><dir name="System"><dir name="Config"><dir name="Source"><file name="Apiversion.php" hash="7ec9961a0fe148fd4e30802da3d8c354"/></dir></dir></dir></dir><file name="Observer.php" hash="97b84f00820f346d2af8e86d8092d84f"/></dir><dir name="etc"><file name="adminhtml.xml" hash="997969b7b8dee067918cf652d804607d"/><file name="config.xml" hash="f0cfaa405dd89cbd8701a16b4a9e33b0"/><file name="system.xml" hash="563858f86eaa4459e16917d0fd8e6043"/></dir><dir name="lib"><file name="WhiplashApi.php" hash="66d952fb5735e1ca5e74c8803fcc7597"/></dir></dir><dir name="Helper"><file name="Data.php" hash="b7f252699701bd3eee38b208c1be9689"/></dir><dir name="Model"><dir name="Adminhtml"><dir name="System"><dir name="Config"><dir name="Source"><file name="Apiversion.php" hash="7ec9961a0fe148fd4e30802da3d8c354"/></dir></dir></dir></dir><file name="Observer.php" hash="97b84f00820f346d2af8e86d8092d84f"/></dir><dir name="etc"><file name="adminhtml.xml" hash="997969b7b8dee067918cf652d804607d"/><file name="config.xml" hash="f0cfaa405dd89cbd8701a16b4a9e33b0"/><file name="system.xml" hash="563858f86eaa4459e16917d0fd8e6043"/></dir><dir name="lib"><file name="WhiplashApi.php" hash="66d952fb5735e1ca5e74c8803fcc7597"/></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Whiplash_Fulfillment.xml" hash="3b195f95342271be87bbf2f5fdc2265b"/></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.0.0</min><max>5.6.17</max></php><package><name>Mage_Core_Modules</name><channel>community</channel><min>1.6.2.0</min><max>1.9.2</max></package></required></dependencies>
