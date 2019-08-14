@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Whiplash_Fulfillment",
+    "type": "magento-module",
+    "license": "yd521cdsf5re1serkcjbf4r50rew54cxc12",
+    "homepage": "",
+    "description": "The Whiplash extension enables you to seamlessly connect your Magento store with Whiplash Fulfillment.",
+    "authors": [
+    {
+        "name": "Peter Imai",
+        "email": "james@whiplashmerch.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
