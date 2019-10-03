@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 The Whiplash extension  Adds real-time synchronization of Products and Orders between Magento and Whiplash.

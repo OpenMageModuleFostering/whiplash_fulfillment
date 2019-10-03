@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Whiplash_Fulfillment",
+    "name": "openmage-module-fostering\/whiplash_fulfillment",
     "type": "magento-module",
-    "license": "yd521cdsf5re1serkcjbf4r50rew54cxc12",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "The Whiplash extension  Adds real-time synchronization of Products and Orders between Magento and Whiplash.",
     "authors": [
